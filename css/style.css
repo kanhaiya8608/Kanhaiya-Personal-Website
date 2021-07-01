@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Sacramento&family=Spartan&display=swap');
 body {
     margin: 0;
     text-align: center;
@@ -33,7 +32,7 @@ h3{
 }
 p{
     font-family: 'Spartan', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 2;
 }
 hr{
@@ -83,7 +82,11 @@ span{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
+}.skill-row p{
+    text-align: justify;
+    text-justify: inter-word;
 }
+
 .skill-row img{
     border-radius: 50%;
     height: 180px;
@@ -141,4 +144,39 @@ span{
     color: #EAF6F6;
     font-size: 0.75rem;
     padding: 20px 0;
+}
+/*Mobile-view*/
+@media only screen and (max-width: 600px) {
+h1{
+    font-size: 3.625rem;
+}
+.mount{
+    height: 200px;
+
+}
+.cloud{
+    height: 100px;
+}
+.bottom-cloud{
+    bottom: 370px;
+}
+h2{
+    font-size: 2.5rem;
+}
+.intro{
+    width: 60%;
+}
+hr{
+    margin: 80px auto;
+}
+.skill-row{
+ font-size: 1rem;
+}
+.skill-row p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.skill-row img{
+    padding-bottom: 10px;
+}
 }
